@@ -18,7 +18,7 @@ export default function SplashScreen() {
       <Image source={logo} style={styles.imageStyle} />
       <TouchableOpacity
         style={styles.buttonWrapper}
-        onPress={() => navigation.navigate("PhoneNumber")}
+        onPress={() => navigation.navigate("phonenumber")}
       >
         <Text style={styles.getStart}>Get Start</Text>
       </TouchableOpacity>
