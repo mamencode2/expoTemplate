@@ -7,8 +7,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 
 import AppRoute from "./screens/AppRoute"
-import { fonts } from './fonts/fonts.js';
-import { useFonts } from 'expo-font';
+
 import store, { persistor } from './store';
 
 
