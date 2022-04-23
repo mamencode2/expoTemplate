@@ -12,12 +12,12 @@ export default function MapTwo() {
       <MapboxGL.MapView
         styleURL={MapboxGL.StyleURL.Street}
         zoomLevel={16}
-        centerCoordinate={[38.363611, 9.005401]}
+        centerCoordinate={[38.763611, 9.005401]}
         showUserLocation={true}
         style={{width: width, height:height}}>
           <MapboxGL.Camera
-            zoomLevel={16}
-            centerCoordinate={[38.363611, 9.005401]}
+            zoomLevel={10}
+            centerCoordinate={[38.763611, 9.005401]}
           >
           </MapboxGL.Camera>
       </MapboxGL.MapView>
