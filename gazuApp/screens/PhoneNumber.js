@@ -52,7 +52,7 @@ import {
         showMessage({
           text: "Verification code has been sent to your phone."
         });
-        navigation.navigate("Otp", {
+        navigation.navigate("otp", {
           confirm: verificationId,
           phoneNum: phoneNumber
         });
