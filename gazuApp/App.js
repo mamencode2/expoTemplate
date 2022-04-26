@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import * as React from 'react';
 import { Text, View, StyleSheet, ActivityIndicator } from 'react-native';
 import { Provider as ReduxProvider } from 'react-redux';
+import DoubleTapToClose from "./DoubleTabToClose";
 
 import { PersistGate } from 'redux-persist/integration/react';
 
@@ -25,6 +26,7 @@ export default function App() {
     <ReduxProvider store={store}>
       <PersistGate loading={<LoadingMarkup />} persistor={persistor}>
          <AppRoute />
+         <DoubleTapToClose />
         <StatusBar style="auto" />
       </PersistGate>
     </ReduxProvider>
